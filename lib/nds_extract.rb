@@ -21,7 +21,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
- binding.pry
+ 
  result = {}
  inner_index = 0
  while inner_index < nds.count do
