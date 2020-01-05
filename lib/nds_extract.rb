@@ -22,10 +22,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
  binding.pry
- name = nds[0][:name]
-  result = {}
-  result[name:] = :worldwide_gross
-  result << gross_for_director()
+ 
   
   result
 end
